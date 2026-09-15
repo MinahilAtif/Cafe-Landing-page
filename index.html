@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Café & Bistro - Experience artisanal specialty coffee, fresh seasonal dishes, and hand-crafted pastries in a warm, welcoming sanctuary.">
+  <title>Aura Café & Bistro | Artisanal Coffee & Modern Dining</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Aura Café & Bistro Homepage">
+        <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+          <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+          <line x1="6" y1="1" x2="6" y2="4"></line>
+          <line x1="10" y1="1" x2="10" y2="4"></line>
+          <line x1="14" y1="1" x2="14" y2="4"></line>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">AURA</span>
+          <span class="brand-tag">CAFÉ & BISTRO</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#hours-location" class="nav-link">Hours & Location</a></li>
+          <li class="nav-item"><a href="#reservations" class="nav-link">Reservations</a></li>
+        </ul>
+        <!-- Header Book Table Button for Mobile/Drawer -->
+        <a href="#reservations" class="btn btn-primary nav-cta">Book a Table</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#reservations" class="btn btn-primary btn-sm desktop-only">Book a Table</a>
+        <!-- Hamburger Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-sparkle">✦</span>
+            <span>Artisan Crafted & Farm-To-Cup Since 2016</span>
+          </div>
+          <h1 class="hero-title">Where Every Sip & Plate Tells an Artisanal Story</h1>
+          <p class="hero-description">
+            Experience hand-roasted single-origin coffees, wholesome farm-fresh culinary creations, and warm bistro hospitality in the heart of the city.
+          </p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary btn-lg">View Menu</a>
+            <a href="#reservations" class="btn btn-secondary btn-lg">Book a Table</a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">4.9 ★</span>
+              <span class="highlight-label">1,400+ Reviews</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">100%</span>
+              <span class="highlight-label">Organic Sourcing</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">Fresh</span>
+              <span class="highlight-label">Baked Daily</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT / STORY SECTION ==================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Text Column -->
+          <div class="about-content reveal">
+            <div class="section-label">OUR HERITAGE</div>
+            <h2 class="section-title">A Sanctuary for Food Lovers & Coffee Connoisseurs</h2>
+            <p class="about-text">
+              Born from a heartfelt passion for sincere hospitality and mindful ingredients, Aura Café & Bistro was created as a peaceful haven where quality is never compromised. We partner directly with ethical microlot coffee growers and sustainable local family farms to bring you flavors that celebrate the seasons.
+            </p>
+            <p class="about-text">
+              From our slow-fermented artisanal sourdough to our meticulously extracted pour-overs, every item on our menu is prepared with patience, respect, and culinary artistry.
+            </p>
+
+            <div class="features-list">
+              <div class="feature-item">
+                <div class="feature-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="feature-title">Pure Ethical Ingredients</h3>
+                  <p class="feature-desc">100% cage-free, pesticide-free, and locally harvested seasonal produce.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="feature-title">Small-Batch Roastery</h3>
+                  <p class="feature-desc">Custom roast profiles designed to unlock complex notes of berry, cocoa, and citrus.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chef-quote">
+              <p class="quote-text">“We believe great food nurtures more than just the body; it brings our community together around common warmth and joy.”</p>
+              <div class="quote-author">
+                <span class="author-name">— Elena Ramos & Julien Meyer</span>
+                <span class="author-role">Founders & Culinary Directors</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="about-media reveal">
+            <div class="image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" 
+                alt="Cozy, warm interior of Aura Cafe with wooden tables and warm lighting" 
+                class="about-img main-img"
+                loading="lazy"
+              >
+              <div class="experience-badge">
+                <span class="badge-num">10+</span>
+                <span class="badge-text">Years of Culinary Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MENU SECTION ==================== -->
+    <section class="menu-section section-padding bg-alt" id="menu">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-label">CURATED SELECTIONS</div>
+          <h2 class="section-title">Explore Our Seasonal Menu</h2>
+          <p class="section-subtitle">Crafted daily using the freshest harvests and artisanal culinary techniques.</p>
+        </div>
+
+        <!-- Menu Filter Tabs -->
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu Categories">
+          <button class="tab-btn active" data-category="all" role="tab" aria-selected="true">All Items</button>
+          <button class="tab-btn" data-category="starters" role="tab" aria-selected="false">Starters</button>
+          <button class="tab-btn" data-category="mains" role="tab" aria-selected="false">Main Courses</button>
+          <button class="tab-btn" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+          <button class="tab-btn" data-category="drinks" role="tab" aria-selected="false">Drinks & Coffee</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+
+          <!-- Starters -->
+          <article class="menu-card reveal" data-category="starters">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Truffled Burrata Crostini</h3>
+                <span class="dietary-tag veg" title="Vegetarian">VEG</span>
+                <span class="dietary-tag special" title="Chef's Special">CHEF'S PICK</span>
+              </div>
+              <span class="menu-item-price">$14.50</span>
+            </div>
+            <p class="menu-item-desc">Creamy artisanal burrata, heirloom tomato relish, white truffle glaze on toasted sourdough.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Crispy Calamari Fritti</h3>
+              </div>
+              <span class="menu-item-price">$16.00</span>
+            </div>
+            <p class="menu-item-desc">Lightly dusted tender baby squid with smoked paprika, charred lemon cheek, and caper garlic aioli.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Smoked Salmon Avocado Tartine</h3>
+                <span class="dietary-tag gf" title="Can be made Gluten Free">GF OPT</span>
+              </div>
+              <span class="menu-item-price">$15.50</span>
+            </div>
+            <p class="menu-item-desc">Wild Scottish salmon, crushed Hass avocado, pickled shallots, capers, and dill on seeded rye bread.</p>
+          </article>
+
+          <!-- Mains -->
+          <article class="menu-card reveal" data-category="mains">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Slow-Braised Angus Short Rib</h3>
+                <span class="dietary-tag special" title="Chef's Special">SIGNATURE</span>
+              </div>
+              <span class="menu-item-price">$31.00</span>
+            </div>
+            <p class="menu-item-desc">12-hour braised beef rib in Cabernet reduction, creamy polenta, glazed baby carrots, and rosemary gremolata.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Pan-Seared Mediterranean Sea Bass</h3>
+                <span class="dietary-tag gf" title="Gluten-Free">GF</span>
+              </div>
+              <span class="menu-item-price">$28.50</span>
+            </div>
+            <p class="menu-item-desc">Crispy skin sea bass, sautéed saffron fennel, fingerling potatoes, and lemon-caper brown butter sauce.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Wild Forest Mushroom Risotto</h3>
+                <span class="dietary-tag veg" title="Vegetarian">VEG</span>
+                <span class="dietary-tag gf" title="Gluten-Free">GF</span>
+              </div>
+              <span class="menu-item-price">$24.00</span>
+            </div>
+            <p class="menu-item-desc">Acquerello carnaroli rice, chanterelle and porcini mushrooms, 24-month aged Parmigiano-Reggiano, herb oil.</p>
+          </article>
+
+          <!-- Desserts -->
+          <article class="menu-card reveal" data-category="desserts">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Sicilian Pistachio Tiramisu</h3>
+                <span class="dietary-tag special" title="Chef's Special">HOUSE FAVORITE</span>
+              </div>
+              <span class="menu-item-price">$10.50</span>
+            </div>
+            <p class="menu-item-desc">Espresso-dipped savoiardi, Bronte pistachio mascarpone cream, and shaved dark Venezuelan chocolate.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Warm Valrhona Molten Lava Cake</h3>
+                <span class="dietary-tag veg" title="Vegetarian">VEG</span>
+              </div>
+              <span class="menu-item-price">$11.00</span>
+            </div>
+            <p class="menu-item-desc">Gooey 70% dark chocolate center, Madagascar Bourbon vanilla bean gelato, and tart raspberry coulis.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Meyer Lemon & Lavender Tart</h3>
+                <span class="dietary-tag veg" title="Vegetarian">VEG</span>
+              </div>
+              <span class="menu-item-price">$9.50</span>
+            </div>
+            <p class="menu-item-desc">Crisp buttery pastry shell, tangy Meyer lemon curd, torched Swiss meringue, and candied lavender petals.</p>
+          </article>
+
+          <!-- Drinks -->
+          <article class="menu-card reveal" data-category="drinks">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Aura Signature Flat White</h3>
+              </div>
+              <span class="menu-item-price">$5.25</span>
+            </div>
+            <p class="menu-item-desc">Double ristretto of our Ethiopia Guji natural roast with velvety micro-foam oat or organic whole milk.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Sparkling Citrus Cold Brew Tonic</h3>
+              </div>
+              <span class="menu-item-price">$6.50</span>
+            </div>
+            <p class="menu-item-desc">18-hour single-origin cold brew, botanical fever-tree tonic, expressed blood orange peel, and fresh rosemary.</p>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks">
+            <div class="menu-card-header">
+              <div class="menu-title-group">
+                <h3 class="menu-item-name">Artisanal Honey Ginger Matcha</h3>
+                <span class="dietary-tag special" title="Organic">ORGANIC</span>
+              </div>
+              <span class="menu-item-price">$6.00</span>
+            </div>
+            <p class="menu-item-desc">Ceremonial grade Uji matcha, raw mountain wildflower honey, steamed almond milk, and a hint of warm ginger.</p>
+          </article>
+
+        </div>
+
+        <div class="menu-footer text-center reveal">
+          <p class="dietary-note">Please notify your server of any food allergies or specific dietary requirements before placing your order.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-label">ATMOSPHERE & MOMENTS</div>
+          <h2 class="section-title">A Glimpse Inside Aura</h2>
+          <p class="section-subtitle">Take in the warm sights of our café, handcrafted dishes, and welcoming ambiance.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=80" 
+              alt="Barista creating delicate latte art in a ceramic cup" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">BEVERAGE CRAFT</span>
+              <h4 class="gallery-title">Artisan Pour-Over & Latte Art</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" 
+              alt="Warm contemporary dining room interior with ambient lighting" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">AMBIANCE</span>
+              <h4 class="gallery-title">The Sunlit Dining Hall</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80" 
+              alt="Fresh gourmet salad bowl with vibrant vegetables and grains" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">FARM TO TABLE</span>
+              <h4 class="gallery-title">Seasonal Harvest Plates</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" 
+              alt="Freshly baked golden pastries, croissants, and sourdough loaves" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">BAKERY</span>
+              <h4 class="gallery-title">Morning Pastries & Sourdough</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=80" 
+              alt="Chef gently plating an exquisite entrée with fresh herbs" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">CULINARY ART</span>
+              <h4 class="gallery-title">Precision in Every Plate</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="gallery-card reveal">
+            <img 
+              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80" 
+              alt="Cozy intimate evening candlelight setting on wooden cafe table" 
+              class="gallery-image"
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="gallery-cat">EVENING BISTRO</span>
+              <h4 class="gallery-title">Candlelit Conversations</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OPENING HOURS & LOCATION SECTION ==================== -->
+    <section class="info-section section-padding bg-alt" id="hours-location">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-label">VISIT OUR SANCTUARY</div>
+          <h2 class="section-title">Opening Hours & Location</h2>
+          <p class="section-subtitle">We look forward to welcoming you for morning coffee, weekend brunch, or evening dinner.</p>
+        </div>
+
+        <div class="info-grid">
+          <!-- Hours & Details Card -->
+          <div class="info-card reveal">
+            <div class="info-card-header">
+              <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Open Today</span>
+              </div>
+              <h3 class="info-card-title">Weekly Schedule</h3>
+            </div>
+
+            <!-- Hours Table -->
+            <table class="hours-table" aria-label="Weekly Operating Hours">
+              <tbody>
+                <tr>
+                  <th scope="row">Monday – Thursday</th>
+                  <td>7:30 AM – 9:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">Friday</th>
+                  <td>7:30 AM – 10:30 PM</td>
+                </tr>
+                <tr class="highlight-day">
+                  <th scope="row">Saturday</th>
+                  <td>8:00 AM – 10:30 PM</td>
+                </tr>
+                <tr class="highlight-day">
+                  <th scope="row">Sunday</th>
+                  <td>8:00 AM – 8:30 PM</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <hr class="info-divider">
+
+            <!-- Contact & Address Details -->
+            <div class="location-details">
+              <div class="detail-row">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <strong>Address</strong>
+                  <p>142 Magnolia Avenue, Historic District, Suite 101</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <div>
+                  <strong>Direct Inquiries</strong>
+                  <p>(555) 234-8890</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <div>
+                  <strong>Email</strong>
+                  <p>reservations@auracafe.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map Column -->
+          <div class="map-card reveal">
+            <div class="map-header">
+              <span class="map-tag">NEIGHBORHOOD MAP</span>
+              <span class="map-sub">Valet parking & street parking available</span>
+            </div>
+            <div class="map-frame-wrapper">
+              <iframe 
+                title="Google Maps Location of Aura Café & Bistro" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.95373531531885!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RESERVATION / CONTACT SECTION ==================== -->
+    <section class="reservation-section section-padding" id="reservations">
+      <div class="container">
+        <div class="reservation-wrapper reveal">
+          <div class="reservation-header text-center">
+            <div class="section-label">JOIN US AT OUR TABLE</div>
+            <h2 class="section-title">Reserve Your Table</h2>
+            <p class="section-subtitle">
+              Book online instantly. For parties of 8 or more, please contact us directly via phone.
+            </p>
+          </div>
+
+          <!-- Success Banner (Hidden by default, shown on successful submission) -->
+          <div class="form-feedback success-banner" id="reservationSuccess" role="alert" aria-live="polite" hidden>
+            <div class="feedback-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div class="feedback-text">
+              <h3 class="feedback-title">Reservation Confirmed!</h3>
+              <p class="feedback-msg" id="successDetails">Thank you! Your table has been reserved. We have sent a confirmation email with all details.</p>
+            </div>
+            <button type="button" class="btn-close" id="closeSuccessBanner" aria-label="Close notification">&times;</button>
+          </div>
+
+          <!-- Reservation Form -->
+          <form class="reservation-form" id="reservationForm" novalidate>
+            <div class="form-grid">
+              
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="resName" class="form-label">Full Name <span class="required-star">*</span></label>
+                <input 
+                  type="text" 
+                  id="resName" 
+                  name="fullName" 
+                  class="form-input" 
+                  placeholder="e.g. Sarah Jenkins" 
+                  autocomplete="name"
+                  required
+                >
+                <span class="error-msg" id="nameError" aria-live="polite"></span>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="resEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                <input 
+                  type="email" 
+                  id="resEmail" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. sarah@example.com" 
+                  autocomplete="email"
+                  required
+                >
+                <span class="error-msg" id="emailError" aria-live="polite"></span>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="resPhone" class="form-label">Phone Number <span class="required-star">*</span></label>
+                <input 
+                  type="tel" 
+                  id="resPhone" 
+                  name="phone" 
+                  class="form-input" 
+                  placeholder="e.g. (555) 019-2834" 
+                  autocomplete="tel"
+                  required
+                >
+                <span class="error-msg" id="phoneError" aria-live="polite"></span>
+              </div>
+
+              <!-- Number of Guests -->
+              <div class="form-group">
+                <label for="resGuests" class="form-label">Number of Guests <span class="required-star">*</span></label>
+                <select id="resGuests" name="guests" class="form-select" required>
+                  <option value="" disabled selected>Select party size</option>
+                  <option value="1">1 Person (Solo Dining)</option>
+                  <option value="2">2 People (Date / Table for Two)</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6 People</option>
+                  <option value="7">7 People</option>
+                  <option value="8+">8+ People (Event/Group Dining)</option>
+                </select>
+                <span class="error-msg" id="guestsError" aria-live="polite"></span>
+              </div>
+
+              <!-- Date -->
+              <div class="form-group">
+                <label for="resDate" class="form-label">Reservation Date <span class="required-star">*</span></label>
+                <input 
+                  type="date" 
+                  id="resDate" 
+                  name="date" 
+                  class="form-input" 
+                  required
+                >
+                <span class="error-msg" id="dateError" aria-live="polite"></span>
+              </div>
+
+              <!-- Time -->
+              <div class="form-group">
+                <label for="resTime" class="form-label">Preferred Time <span class="required-star">*</span></label>
+                <select id="resTime" name="time" class="form-select" required>
+                  <option value="" disabled selected>Choose a seating slot</option>
+                  <optgroup label="Breakfast & Brunch">
+                    <option value="08:00 AM">8:00 AM</option>
+                    <option value="09:00 AM">9:00 AM</option>
+                    <option value="10:30 AM">10:30 AM</option>
+                    <option value="11:30 AM">11:30 AM</option>
+                  </optgroup>
+                  <optgroup label="Lunch">
+                    <option value="12:30 PM">12:30 PM</option>
+                    <option value="01:30 PM">1:30 PM</option>
+                    <option value="02:30 PM">2:30 PM</option>
+                  </optgroup>
+                  <optgroup label="Dinner">
+                    <option value="05:30 PM">5:30 PM</option>
+                    <option value="06:30 PM">6:30 PM</option>
+                    <option value="07:30 PM">7:30 PM</option>
+                    <option value="08:30 PM">8:30 PM</option>
+                  </optgroup>
+                </select>
+                <span class="error-msg" id="timeError" aria-live="polite"></span>
+              </div>
+
+              <!-- Seating Preference -->
+              <div class="form-group full-width">
+                <label for="resSeating" class="form-label">Seating Preference</label>
+                <select id="resSeating" name="seating" class="form-select">
+                  <option value="Any Available">No Preference (First Available)</option>
+                  <option value="Main Dining Hall">Main Dining Hall (Warm & Lively)</option>
+                  <option value="Garden Terrace">Outdoor Garden Terrace (Covered & Heated)</option>
+                  <option value="Coffee Bar Counter">Artisan Coffee Bar Counter</option>
+                  <option value="Private Booth">Cozy Private Booth</option>
+                </select>
+              </div>
+
+              <!-- Special Requests -->
+              <div class="form-group full-width">
+                <label for="resNotes" class="form-label">Special Occasion or Dietary Notes <span class="optional-label">(Optional)</span></label>
+                <textarea 
+                  id="resNotes" 
+                  name="notes" 
+                  class="form-textarea" 
+                  rows="3" 
+                  placeholder="Celebrating an anniversary, high chair needed, or dietary allergies? Please let us know."
+                ></textarea>
+              </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-actions text-center">
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                <span class="btn-text">Confirm Reservation</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+              <p class="form-security-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                Instant confirmation. No deposit or credit card required.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col brand-col">
+          <a href="#home" class="brand-logo footer-logo">
+            <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+              <line x1="6" y1="1" x2="6" y2="4"></line>
+              <line x1="10" y1="1" x2="10" y2="4"></line>
+              <line x1="14" y1="1" x2="14" y2="4"></line>
+            </svg>
+            <span class="brand-text">
+              <span class="brand-name">AURA</span>
+              <span class="brand-tag">CAFÉ & BISTRO</span>
+            </span>
+          </a>
+          <p class="footer-desc">
+            A sanctuary crafted for memorable conversations, masterfully roasted coffee, and honest, seasonal dining.
+          </p>
+          <div class="social-links" aria-label="Social media profiles">
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow Aura Café on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow Aura Café on Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <!-- Twitter/X -->
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow Aura Café on X">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+            <!-- Tripadvisor / Review -->
+            <a href="https://tripadvisor.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Review Aura Café on TripAdvisor">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="8" cy="12" r="2"></circle>
+                <circle cx="16" cy="12" r="2"></circle>
+                <path d="M12 17c-2 0-3-1-3-1s1-1 3-1 3 1 3 1-1 1-3 1z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Seasonal Menu</a></li>
+            <li><a href="#gallery">Atmosphere</a></li>
+            <li><a href="#hours-location">Hours & Location</a></li>
+            <li><a href="#reservations">Book a Table</a></li>
+          </ul>
+        </div>
+
+        <!-- Working Hours Snippet -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Dining Hours</h4>
+          <ul class="footer-info-list">
+            <li><strong>Mon – Thu:</strong> 7:30 AM – 9:00 PM</li>
+            <li><strong>Friday:</strong> 7:30 AM – 10:30 PM</li>
+            <li><strong>Saturday:</strong> 8:00 AM – 10:30 PM</li>
+            <li><strong>Sunday:</strong> 8:00 AM – 8:30 PM</li>
+            <li class="kitchen-note">Kitchen closes 45 mins before closing time</li>
+          </ul>
+        </div>
+
+        <!-- Contact & Newsletter -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Get in Touch</h4>
+          <address class="footer-address">
+            142 Magnolia Avenue, Historic District<br>
+            Cityville, CV 90210<br>
+            <a href="tel:5552348890" class="footer-contact-link">(555) 234-8890</a><br>
+            <a href="mailto:hello@auracafe.com" class="footer-contact-link">hello@auracafe.com</a>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Aura Café & Bistro. All rights reserved. Handcrafted with passion.
+        </p>
+        <div class="footer-legal">
+          <a href="#home">Privacy Policy</a>
+          <span class="sep">•</span>
+          <a href="#home">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
